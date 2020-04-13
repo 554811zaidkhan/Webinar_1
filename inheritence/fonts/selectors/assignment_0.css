@@ -1,0 +1,25 @@
+/*#id1{
+    color: blueviolet;
+}
+#id2{
+    font-style: italic;
+    color: brown;
+}
+#id3{
+    color: blueviolet;
+}
+#id4{
+    color: red;
+}
+#id5{
+    color: green;
+}*/
+ol ol{
+    display: none;
+}
+li:hover{
+    color: red;
+}
+li:hover>ol{
+    display: block;
+}

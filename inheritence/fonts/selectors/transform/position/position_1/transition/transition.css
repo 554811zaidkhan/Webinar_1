@@ -1,0 +1,29 @@
+div{
+    background-color: blueviolet;
+    margin: 40px;
+}
+#div1{
+    background-color: brown;
+    height: 80px;
+    width: 80px;
+
+}
+#div2{
+    background-color: darkblue;
+    height: 40px;
+    width: 40px;
+}
+#div1:hover{
+    background-color: rebeccapurple;
+    height: 40px;
+    transition: height 2s, background 4s;
+}
+#div2:hover{
+    background-color: seagreen;
+    height: 120px;
+    transition: height 4s, background 4s;
+}
+div:hover+div{
+    margin-left: 200px;
+   transition: margin 30px;
+}

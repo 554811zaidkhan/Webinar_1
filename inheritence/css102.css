@@ -1,0 +1,14 @@
+.play{
+    margin: 30px;
+    padding: 10px;
+    border: solid black 3px;
+}
+#div1{
+    background-color: rgb(128, 158, 168);
+}
+#div2{
+    background-color: lightcoral;
+}
+#div3{
+    background-color: lightgreen;
+}

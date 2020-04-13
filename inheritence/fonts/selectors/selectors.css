@@ -1,0 +1,13 @@
+li{
+    font-weight: bolder;
+}
+ul>li{
+    color: lightcoral;
+}
+ol>li{
+    color: lightgreen;
+}
+ul ul{
+    font-style: italic;
+    font-size: 30px;
+}
